@@ -25,13 +25,12 @@ public class Sip {
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
         // Set device capabilities
-        capabilities.setCapability("deviceName", "motorola moto g34 5G");
+        capabilities.setCapability("appium:deviceName", "motorola moto g34 5G");
         capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("automationName", "uiautomator2");
-        capabilities.setCapability("platformVersion", "14");
-
-        // 
-        capabilities.setCapability("app", "D:\\appium app\\app-debug.apk");
+        capabilities.setCapability("appium:automationName", "uiautomator2");
+        capabilities.setCapability("appium:platformVersion", "14");
+        capabilities.setCapability("appium:app", "D:\\appium app\\app-debug.apk");
+        Thread.sleep(5000);
         URL appiumServerURL = new URL("http://127.0.0.1:4723/");
         Thread.sleep(5000);
         AndroidDriver driver = new AndroidDriver(appiumServerURL, capabilities);

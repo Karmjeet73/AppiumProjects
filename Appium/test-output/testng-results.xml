@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-05T16:15:52 IST" name="Default suite" finished-at="2024-06-05T16:16:35 IST" duration-ms="43574">
+    <groups>
+    </groups>
+    <test started-at="2024-06-05T16:15:52 IST" name="Default test" finished-at="2024-06-05T16:16:35 IST" duration-ms="43574">
+      <class name="Partnerapp.AddPartner">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Partnerapp.AddPartner@9f116cc]" started-at="2024-06-05T16:15:52 IST" name="setup" finished-at="2024-06-05T16:15:52 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Partnerapp.AddPartner@9f116cc]" started-at="2024-06-05T16:15:52 IST" name="setUp" finished-at="2024-06-05T16:16:03 IST" duration-ms="11248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addPartnerTest()[pri:0, instance:Partnerapp.AddPartner@9f116cc]" started-at="2024-06-05T16:16:03 IST" name="addPartnerTest" finished-at="2024-06-05T16:16:29 IST" duration-ms="25759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPartnerTest -->
+        <test-method signature="addclient()[pri:0, instance:Partnerapp.AddPartner@9f116cc]" started-at="2024-06-05T16:16:29 IST" name="addclient" finished-at="2024-06-05T16:16:35 IST" duration-ms="6197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addclient -->
+      </class> <!-- Partnerapp.AddPartner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
